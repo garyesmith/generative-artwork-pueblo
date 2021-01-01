@@ -1,6 +1,6 @@
 
 // PUEBLO 
-// A ProcessingJS/Canvas code-generated cityscape by Gary Smith (https://www.genartive.com)
+// A ProcessingJS/Canvas code-generated Spanish pueblo (village) by Gary Smith (https://www.genartive.com)
 // For educational purposes only: please do not redistribute for profit unmodified.
 
 int calcWidth=250; // theoretical canvas width to use for calculations
