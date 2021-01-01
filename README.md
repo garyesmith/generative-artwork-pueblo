@@ -14,7 +14,10 @@ More information and full documentation for the Processing.js library is at http
 # Execution
 To run this code and generate a random artwork, simply open `index.html` in a modern web browser.
 
-The `index.html` file includes a local copy of the Processing.js library (version 1.3.6) and then loads and runs the Processing.js code in `moonscape.pde` via the `data-processing-sources` attribute on the HTML canvas element.
+The `index.html` file includes a local copy of the Processing.js library 
+(version 1.3.6) and then loads and runs the Processing.js code in 
+`pueblo.pde` via the `data-processing-sources` attribute on the HTML 
+canvas element.
 
 # Additional Details
 Processing.js will automatically run the `setup()` function in the PDE file. This initializes the canvas and then calls additional functions to draw the various elements of the artwork, in this case, the sky, water, treelines, tree trunks, a moon, and the moon's reflection. The exact number of elements and their relative positions and sizes are randomized through generous use of the Processing.js `random(min,max)` function, which ensures that every execution of this code generates a unique artwork.
