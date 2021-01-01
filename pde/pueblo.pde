@@ -202,7 +202,7 @@ void drawPueblo(float xLeft, float yBot, float w, float tallest, color hue1, col
 
 }
 
-// Draw a single pueblo home
+// Draw a single pueblo building
 //  x - left x position of the building
 //  y -  top y position of the building
 //  w - width of the building
@@ -212,7 +212,8 @@ void drawPueblo(float xLeft, float yBot, float w, float tallest, color hue1, col
 //  hue1 - first color hue to use
 //  hue2 - second color hue to use
 //  hue3 - third color hue to use
-//  txtSize - 
+//  txtSize - font size to use for texture characters
+//  roofHue - hue to use for base color of roof
 void drawBuilding(float x, float y, float w, float h, int colorSat, int colorBri, color hue1, color hue2, color hue3, float txtSize, int roofHue) {
 
   int[] hues = { hue1, hue2, hue3 };
